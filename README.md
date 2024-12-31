@@ -12,11 +12,13 @@ This project, developed as part of the Infosys Springboard Internship, leverages
 - **Features**:
   - **PDF Document Support**: Upload and process healthcare-related PDFs.
   - **Vector Database Integration**: FAISS is used for efficient document indexing and semantic search.
+  - **Gradio UI**: Provides an interactive interface for users to input queries and receive contextually relevant answers.
   - **RAG Framework**: Combines retrieval and generative capabilities for contextually accurate answers.
 - **Technologies Used**:
   - FAISS for indexing.
   - LangChain for conversational logic.
   - Groq's Llama3-70b-8192 model.
+  - **Gradio** for user-friendly chatbot interactions.
 
 ### **2. Pandas AI Agent**
 - A data analysis tool for exploring and visualizing trends in healthcare datasets.
@@ -77,8 +79,11 @@ pip install -r requirements.txt
 ```
 
 ### **4. Run the Project**
-- For the **RAG AI Chatbot**, open and execute the Jupyter Notebook (`.ipynb`) in the RAG folder.
-- For the **Pandas AI Agent**, open and execute the Jupyter Notebook (`.ipynb`) in the Pandas folder.
+- For the **RAG AI Chatbot**:
+  - Open and execute the Jupyter Notebook (`.ipynb`) in the RAG folder.
+  - The chatbot interface is built using **Gradio** for interactive Q&A. Once the notebook is executed, it will generate a Gradio link where you can interact with the chatbot.
+- For the **Pandas AI Agent**:
+  - Open and execute the Jupyter Notebook (`.ipynb`) in the Pandas folder.
 
 ---
 
@@ -89,6 +94,8 @@ pip install -r requirements.txt
   - FAISS for embedding storage and retrieval.
 - **Python Libraries**:
   - LangChain, Pandas, Matplotlib, and more.
+- **Gradio**:
+  - For creating an interactive user interface for the RAG AI Chatbot.
 
 ---
 
@@ -98,6 +105,7 @@ This project is licensed under the MIT License.
 ---
 
 ## **Contributors**
-- **Jyotishman Das**: Lead Developer and Project Contributor.
+- Jyotishman Das**: Lead Developer and Project Contributor.
+
 
 
