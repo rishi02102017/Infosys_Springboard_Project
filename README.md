@@ -57,3 +57,47 @@ This project, developed as part of the Infosys Springboard Internship, leverages
 ### **1. Clone the Repository**
 ```bash
 git clone https://github.com/rishi02102017/Infosys_Springboard_Project.git
+```
+### **2. Navigate to the Respective Folders**
+
+#### **RAG AI Chatbot**
+- Contains the implementation of the chatbot for document-based Q&A.
+- Includes the `Healthcare.pdf` dataset.
+
+#### **Pandas AI Agent**
+- Contains the code for trend analysis and insights.
+- Includes the `Synthetic_Healthcare_Dataset.xlsx` dataset.
+
+---
+
+### **3. Install Dependencies**
+Run the following command to install required Python libraries:
+```bash
+pip install -r requirements.txt
+```
+
+### **4. Run the Project**
+- For the **RAG AI Chatbot**, open and execute the Jupyter Notebook (`.ipynb`) in the RAG folder.
+- For the **Pandas AI Agent**, open and execute the Jupyter Notebook (`.ipynb`) in the Pandas folder.
+
+---
+
+## **Technologies Used**
+- **Large Language Models (LLMs)**:
+  - Groq's Llama3-70b-8192 for natural language processing.
+- **Vector Databases**:
+  - FAISS for embedding storage and retrieval.
+- **Python Libraries**:
+  - LangChain, Pandas, Matplotlib, and more.
+
+---
+
+## **License**
+This project is licensed under the MIT License.
+
+---
+
+## **Contributors**
+- **Jyotishman Das**: Lead Developer and Project Contributor.
+
+
