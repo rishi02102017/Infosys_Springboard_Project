@@ -105,7 +105,7 @@ This project is licensed under the MIT License.
 ---
 
 ## **Contributors**
-- Jyotishman Das**: Lead Developer and Project Contributor.
+- Jyotishman Das: Lead Developer and Project Contributor.
 
 
 
